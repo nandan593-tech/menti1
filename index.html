@@ -6,15 +6,94 @@
     <title>myportfolio</title>
 </head>
 <body>
+<header>
     <h1>welcome to my portfolio</h1>
+    <a href=""><button>
+      about
+     </button></a>
+     <a href=""><button>
+         skills
+        </button></a>
+        <a href=""><button>
+         projects
+        </button></a>
+        <a href=""><button>
+         contact
+        </button></a>
+
+</header>
+<main>
+<section id="abut">
     <h1>N.Nandan kumar</h1>
-    <P>1.i am very interested in learning python language </P>
-    <p>2.i have more interest to learn about ai</p>
-    <p>3.1 want to know about how to use ai<br>i want to know how ai can replace our jobs</p>
+    <image src="photo1.jpg" width="500" height="800"  alt="my profile picture"></image>
+    <P>1.I am passionate web development with a focus on frontened technoligies </P>
+    <p>2.I have more interest to learn about ai</p>
+    <p>3.I am currently persuing my btech 1st year in ananthalakshmi institute of tecnology</p>
+</section>
+<section id="skills">
     <h1><i>my skills</i></h1>
     <ol>
         <li>python basics</li>
         <li>using chatgpt</li>
+        <li>self learning</li>
     </ol>
+</section>
+<section id="projects">
+<table border="1">
+    <tr>
+        <th>
+            projects
+        </th>
+        <td>
+            description
+        </td>
+    </tr>
+    <tr>
+        <td>
+           portfolio website 
+        </td>
+        <td>i had built a portfolio website using html,css,javascript,</td>
+    </tr>
+    <tr>
+        <td>python simple calculator</td>
+        <td>i had built a simple calculator by using python</td>
+    </tr>
+</table>
+
+
+</section>
+<section id="contacts">
+    <P> feel free to contact with me:</P>
+    <form action="">
+        <label for="NAME:">
+            NAME: </label>
+            <input type="text" required><br>
+            <label for="Email">Email:</label>
+            <input type="email" required>
+            <br>
+            <b> choose your gender</b>
+            <input type="radio" id="male" value="male">
+            <label for="male"> Male: </label>
+            <input type="radio" id="female" value="female">
+            <label for="female"> Female:</label><br>
+            <b>select your interests:</b>
+            <input type="checkbox" id="coding" value="coding">
+            <label for="coding">Coding</label>
+            <br>
+            <input type="checkbox" id="reading" value="reading">
+            <label for="reading">Reading</label>
+                <br>
+            <label for="bio"> bio(up to 200 characters):</label>    
+            <input type="text">
+            <br>
+            <button type="submit">submit</button>
+</form>
+
+</section>
+</main>
+<footer>
+
+<p> @2025 my portfolio</p>
+</footer>
 </body>
 </html>
