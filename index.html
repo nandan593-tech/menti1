@@ -4,28 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>myportfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <header>
     <h1>welcome to my portfolio</h1>
-    <a href=""><button>
+    <div>
+    <a href="#about"><button class="button">
       about
      </button></a>
-     <a href=""><button>
+     <a href="#skills"><button class="button">
          skills
         </button></a>
-        <a href=""><button>
+        <a href="#projects"><button class="button">
          projects
         </button></a>
-        <a href=""><button>
+        <a href="#contacts"><button class="button">
          contact
         </button></a>
+    </div>
 
 </header>
 <main>
-<section id="abut">
+<section id="about">
     <h1>N.Nandan kumar</h1>
-    <image src="photo.jpg" width="500" height="800"  alt="my profile picture"></image>
+    <image src="photo.jpg" width="450" height="600"  alt="my profile picture"></image>
     <P>1.I am passionate web development with a focus on frontened technoligies </P>
     <p>2.I have more interest to learn about ai</p>
     <p>3.I am currently persuing my btech 1st year in ananthalakshmi institute of tecnology</p>
@@ -38,7 +41,9 @@
         <li>self learning</li>
     </ol>
 </section>
+
 <section id="projects">
+    <h1>my projects</h1>
 <table border="1">
     <tr>
         <th>
@@ -63,35 +68,49 @@
 
 </section>
 <section id="contacts">
-    <P> feel free to contact with me:</P>
+    <h1>contact me</h1>
+    <p> feel free to contact with me:</p>
     <form action="">
+        <div>
         <label for="NAME:">
             NAME: </label>
-            <input type="text" required><br>
+            <input type="text" required>
+        </div>
+        <div>
             <label for="Email">Email:</label>
             <input type="email" required>
-            <br>
+        </div>
+        <div>
             <b> choose your gender</b>
             <input type="radio" id="male" value="male">
             <label for="male"> Male: </label>
+    
             <input type="radio" id="female" value="female">
-            <label for="female"> Female:</label><br>
+            <label for="female"> Female:</label>
+        </div>
+        <div>
             <b>select your interests:</b>
             <input type="checkbox" id="coding" value="coding">
             <label for="coding">Coding</label>
-            <br>
+            
             <input type="checkbox" id="reading" value="reading">
             <label for="reading">Reading</label>
-                <br>
+        </div>
+        <div>
             <label for="bio"> bio(up to 200 characters):</label>    
             <input type="text">
-            <br>
-            <button type="submit">submit</button>
+        </div>
+        <div>
+            <button type="submit" class="submit">submit</button>
+        </div>
 </form>
 
 </section>
 </main>
-<footer>
+<footer >
+    <a href="#">
+   <button  class="fixed">top</button>
+    </a> 
 
 <p> @2025 my portfolio</p>
 </footer>
