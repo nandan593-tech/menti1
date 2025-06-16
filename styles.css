@@ -1,7 +1,7 @@
 body{margin: 0;font-size:15px;background: color #f0f8ff; ;}
 header{background-color:#2196f3;height: 100vh; color: white;display:flex; flex-direction:column;justify-content: center;align-items: center;flex-wrap: wrap;}
 *{font-family: monospace;}
-.button{height: 40px;width:140px;border:none;border-radius: 10px; cursor: pointer;margin: 13px;}
+.button{height: 40px;width:140px;border:none;border-radius: 10px; cursor: pointer;margin: 13px; transition:0.3s;}
 .button:hover{background-color:darkblue;color :white}
 img{height: 400px;width: 400px;}
 section{height:100vh; border:1px solid gray;border-radius:20px;margin-bottom: 20px;display:flex; flex-direction:column;justify-content: center;align-items: center;padding:7px;}
